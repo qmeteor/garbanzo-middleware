@@ -1,25 +1,56 @@
-# ReduxSimpleStarter
+# Experimenting with middleware
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
-
-### Getting Started
-
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
+                                                                                  `.:/+/::-.`
+                                                                                `:+sysssyy+s+:.
+                                                                               .+hsyysooosssoso:.
+                                                                              `+syo+o/:-:/+osoo+:`
+                                                                       `--.` `/yosso/-   `:sssso/.
+                                                                      .+dhh/.`-ooso//-  `./ssss+/`
+                                                                   .//-hdddo``/hddh++o/::ososoo+-`
+                                                                  .oddohdddy`+ddddh/os+ssosos++-.`
+                                                                  .oddyodddh:ddddh:/+oosooo++/- `-
+                                                                  `-hddsdddhodddhh.-/++++/-``
+                                                                    -yddddddddddyhs/hhhys.
+                                                                    `.yddddddddddddhdddho:
+                                                                      :ddddddddddddddddh+`
+                                                                      .odddddddddddddddy:`
+                                                                       .sddddddddddddyyo.
+                                                                       .sddddddddddddh+.`     --
+                     `.```````  ``                                    `/mdddddddddddds`        .
+                    `.    `-::++ss++/-.`                              :dddddddddddddho.
+                  .` `.`:oydmmmmmmmmmmdyo:`                          .ymddddddddddddh/`     `.
+                ````.:ohdddddddddddddddddmho:`                      ./mdddddddddddddy-`      .`
+             ```  `-sdddddddddddddddddddddddds-`                    -ddddddddddddddds.       .`
+             .`  `/oddddddddddddddddddddddddddds+-`                .omdddddddddddddh+`       -.
+            `.` -odyohddddddddddddddddddddddhyyhhy+:`              -mddddddddddddddy/`
+             -.-odddhhdddddddddddddddddddddshNMMMMMM:.`           .ymddddddddddddddy-`
+             `..ddddddddddddddddddddddddddoNMMMMMMMMNm:`         `/mddddddddddddddhs`
+              .:shddddddddddddddddddhyyyysyMMMMMMMMMMMy`         `hmddddddddddddddh+`
+              `ohhdddddddddddddddhsydNMMNmyomMMMMMmhhho`        `+mdddddddddddddddy:`
+              ./yhddddddddddddddsyMMMMMMMMm/ohNmhyhdddds.       -dmdddddddddddddddy-
+               `oyyhdddddddddddhsMMMMMMMMMMMMoshddddddds.`     .+mdddddddddddddddhs.
+                -syyhhdddddddddyyMMMMMMMMMMMMhydddddhy++oo+/....dmdddddddddddddddyo`
+                 `+yyyhhddddddddomMMMMMMMMMMNohddhyo+oyhhhhhhyo+yddddddddddddddddy/.    -.
+                  `-oyyyyhhyhdddhshNNNNNNNmyshdyoosyyhhhhhhhhhhhhoshddddddddddddhy:      `
+                    --oyyysossyhddyyyhhhyyyhdyosyhhhhhhhhhhhhhhhhhyoodddddddddddhy.`
+                      `-oyyooyyyshdddhhhdddhssyhhhhhhhhhhhhhhhhhhhhs/dddddddddddys`
+                      ``.-/sooyyhdddddddddd+yhhhhhhhhhhhhhhhhhhhhyo/hdddddddddddyo.
+                       .`` .-:sssyhdddddddoshhhhhhhhhhhhhhhhhhyys/shhhhhhhhhdddhy/`
+                        ``` ./ysosyyhddddd+hhhhhhhhhhhhhhhhhs-+yy:NMMMMNNNmdhyhss:.
+                          `` oso/syyyhdddh+hhhhhhhhhhhhhhhhhs/syo:mmdNMMMMMMMMNhy/.
+                             .+soso+yyyhdd+yhhhhhhhhhhhhhhhhhyo+ydmyyyhNMMMMMMNmmmh-
+                               `...-syyyhdhoyhhhhhhhhhhhhhhhyo/+mMMhhmhshNMMMMmmmmy.
+                                    .+yyyydhsoyhhhhhhhhhhhysooyyshmmommmyoNMMNmmmm/`
+                                     `/yyyyhdhysosyyyyssooosyhhddhyy/ysoydNMMmmmmy.
+                                      `:syyyhdddhyysssssyyhsyyhhhhddyhdyyNMMmmmmh.
+                                        .syyyhdddhhhhyhhdmmoNNmddhyyyoMMNyydmmmh-
+                                       `./oyysyhhddmNMMMMMMydMMMMMMMNNMMMMNysdh-
+                                       -shyhhmMMMMMMMMMMMMMNoNMMMMMMMMMMMMMMms.
+                                       `/mmmmmMMMMMMMMMMMMMMyhNMMMMMMMMMMMMMMMd/`
+                                        `+mmmmmMMMMMMMNNmddhhymMMMMMMMMMMMMMMMMMy-`
+                                         `:yyyyhhddddhddmmNNMMMMMMMMMMMMMMMMMMMMMNo/-.`
+                                     .-:+syddddhhdNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNdy+-`
+                                   `+ymNNMMMMMMMMNhymMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmy:`
 ```
